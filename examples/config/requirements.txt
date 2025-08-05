@@ -1,0 +1,178 @@
+# AI Agent Showcase - Python Dependencies
+# =====================================
+# This requirements file demonstrates a comprehensive set of
+# Python libraries commonly used in modern applications
+
+# Web Frameworks & API
+Flask==3.0.0
+FastAPI==0.104.1
+Django==4.2.7
+Starlette==0.27.0
+uvicorn[standard]==0.24.0
+gunicorn==21.2.0
+celery[redis]==5.3.4
+flower==2.0.1
+
+# Database & ORM
+SQLAlchemy==2.0.23
+alembic==1.13.1
+psycopg2-binary==2.9.9
+pymongo==4.6.0
+redis==5.0.1
+elasticsearch==8.11.0
+sqlmodel==0.0.14
+
+# Data Science & Machine Learning
+pandas==2.1.4
+numpy==1.25.2
+scikit-learn==1.3.2
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.17.0
+jupyter==1.0.0
+ipykernel==6.27.1
+tensorflow==2.15.0
+torch==2.1.2
+transformers==4.36.2
+opencv-python==4.8.1.78
+pillow==10.1.0
+
+# Natural Language Processing
+nltk==3.8.1
+spacy==3.7.2
+textblob==0.17.1
+gensim==4.3.2
+beautifulsoup4==4.12.2
+
+# Web Scraping & HTTP
+requests==2.31.0
+httpx==0.25.2
+aiohttp==3.9.1
+scrapy==2.11.0
+selenium==4.16.0
+playwright==1.40.0
+
+# Authentication & Security
+PyJWT==2.8.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+cryptography==41.0.8
+python-jose[cryptography]==3.3.0
+
+# Configuration & Environment
+python-dotenv==1.0.0
+pydantic==2.5.2
+pydantic-settings==2.1.0
+click==8.1.7
+typer==0.9.0
+
+# Testing & Quality Assurance
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+bandit==1.7.5
+safety==2.3.5
+pre-commit==3.6.0
+
+# Async & Concurrency
+asyncio==3.4.3
+aiofiles==23.2.1
+asyncpg==0.29.0
+aiocache==0.12.2
+
+# Monitoring & Logging
+prometheus-client==0.19.0
+structlog==23.2.0
+sentry-sdk[flask]==1.39.2
+loguru==0.7.2
+
+# Cloud & DevOps
+boto3==1.34.0
+google-cloud-storage==2.10.0
+azure-storage-blob==12.19.0
+docker==6.1.3
+kubernetes==28.1.0
+
+# API Documentation
+sphinx==7.2.6
+sphinx-rtd-theme==1.3.0
+mkdocs==1.5.3
+mkdocs-material==9.4.14
+
+# Utilities & Helpers
+python-dateutil==2.8.2
+pytz==2023.3.post1
+arrow==1.3.0
+rich==13.7.0
+tqdm==4.66.1
+humanize==4.9.0
+faker==20.1.0
+factory-boy==3.3.0
+
+# File Processing
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+PyPDF2==3.0.1
+python-docx==1.1.0
+Pillow==10.1.0
+
+# Networking & Communication
+websockets==12.0
+pika==1.3.2
+kafka-python==2.0.2
+grpcio==1.59.3
+protobuf==4.25.1
+
+# Development Tools
+ipython==8.18.1
+jupyter-lab==4.0.9
+notebook==7.0.6
+debugpy==1.8.0
+memory-profiler==0.61.0
+line-profiler==4.1.1
+
+# Data Validation & Serialization
+marshmallow==3.20.1
+cerberus==1.3.5
+jsonschema==4.20.0
+pyyaml==6.0.1
+toml==0.10.2
+
+# Caching & Performance
+cachetools==5.3.2
+diskcache==5.6.3
+joblib==1.3.2
+numba==0.58.1
+
+# Image & Media Processing
+imageio==2.33.1
+moviepy==1.0.3
+librosa==0.10.1
+soundfile==0.12.1
+
+# Geospatial & Maps
+folium==0.15.1
+geopandas==0.14.1
+shapely==2.0.2
+
+# Time Series & Finance
+statsmodels==0.14.0
+prophet==1.1.5
+yfinance==0.2.28
+ta==0.10.2
+
+# Graph & Network Analysis
+networkx==3.2.1
+igraph==0.11.3
+
+# Blockchain & Crypto
+web3==6.13.0
+cryptography==41.0.8
+
+# Development Environment
+python-decouple==3.8
+environs==10.0.0
